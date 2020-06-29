@@ -1,8 +1,8 @@
 require 'nokogiri'
 require 'open-uri'
 
-	require_relative "./Trail.rb"
-	require_relative "./Hiker.rb"
+	require_relative "./trail.rb"
+	require_relative "./hiker.rb"
 
 
 continue = true
@@ -32,7 +32,7 @@ while (continue)
 
 places = []
 			page.css(".styles-module__trailCard___2oHiP").each do |card|
-				places << Trail.new(card.css(".styles-module__name___3T41O").text,
+				places << trail.new(card.css(".styles-module__name___3T41O").text,
 				 card.css(".styles-module__diff___22Qtv").text,
 				 card.css(".styles-module__info___1Mbn6").text,  #!/usr/bin/env 
 				 card.css(".styles-module__description___QlXBP").text 
