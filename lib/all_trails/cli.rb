@@ -1,7 +1,7 @@
 require 'nokogiri'
 require 'open-uri'
 
-	require_relative "./trail.rb"
+	require_relative "./Trail.rb"
 	require_relative "./hiker.rb"
 
 
