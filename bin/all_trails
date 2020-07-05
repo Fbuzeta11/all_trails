@@ -1,5 +1,5 @@
 #!/usr/bin/env ruby
 
-rquire_relative '../lib/all_trails
+require_relative '../lib/all_trails'
 
 AllTrails::CLI.new.call
