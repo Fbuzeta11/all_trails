@@ -9,7 +9,7 @@ class Trail
 	@diff = diff
 	@info = info
 	@description = description
-	self << @@all
+	
 	end
 
 	def display
